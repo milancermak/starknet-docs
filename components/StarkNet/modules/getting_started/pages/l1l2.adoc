@@ -51,14 +51,6 @@ Note that while honest Sequencers automatically consume L1 -> L2 messages, it is
 protocol (so a Sequencer may choose to skip a message). This should be taken into account when
 designing the message protocol between the two contracts.
 
-[IMPORTANT]
-====
-The Starknet Alpha system is still under development, and therefore from time to time the state of
-the system will reset and all contracts will be removed. This means that you shouldn’t move valuable
-assets to the Starknet system, unless you have a way to withdraw them given the removal of the L2
-contract.
-====
-
 [id="an-example-of-a-simple-token-bridge"]
 == An example of a simple token bridge
 

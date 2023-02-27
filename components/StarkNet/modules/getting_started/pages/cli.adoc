@@ -465,7 +465,7 @@ The output should resemble:
 [id="get-class-hash-at"]
 == get_class_hash_at
 
-To get the hash of a contract at a specific address, run the following command:
+To get the class hash of a contract at a specific address, run the following command:
 
 [#starknet_get_class_hash_at]
 [source,bash]

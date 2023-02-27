@@ -245,13 +245,6 @@ system call].
 [#deploy-the-contract-on-the-starknet-testnet]
 == Deploy the contract on the Starknet testnet
 
-[IMPORTANT]
-====
-The alpha release is an experimental release. Newer
-versions may require a reset of the network’s state (resulting in the
-removal of the deployed contracts).
-====
-
 Run the following command to deploy your contract on the Starknet
 testnet (replace `$CLASS_HASH` with the class hash you got from
 `starknet declare`):
